@@ -1,0 +1,4 @@
+electron-packager . 'Radio Player' --platform=win32 --arch=ia32 --icon=icons/icon.ico --out=release
+
+Encrypted
+electron-packager . 'Radio Player' --platform=win32 --arch=ia32 --icon=icons/icon.ico --out=release --asar --overwrite --ignore=\.gitignore
