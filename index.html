@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electro Radio</title>
+    <link href="./css/photon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="window">
+        <div class="window-content">
+                <ul class="list-group" id="station-list">
+
+                    <li class="list-group-item" ondblclick="streamStation('https://prclive4.listenon.in/Ishq', this)">
+                        <div class="media-body">
+                            <strong>Love Guru</strong>
+                            <p>Personal Love Guru</p>
+                        </div>
+                    </li> 
+                    
+                    <li class="list-group-item" ondblclick="streamStation('https://onlineradiofm.in/apii.php?url=https://radioindia.net/radio/sc-bb/icecast.audio', this)">
+                        <div class="media-body">
+                            <strong>92.7 Nagpur</strong>
+                            <p>Big FM</p>
+                        </div>
+                    </li> 
+
+                    <li class="list-group-item" ondblclick="streamStation('https://onlineradiofm.in/apii.php?url=https://radioindia.net/radio/sc-bb/icecast.audio', this)">
+                        <div class="media-body">
+                            <strong>92.7 Panjim</strong>
+                            <p>Big FM</p>
+                        </div>
+                    </li> 
+                    
+                </ul>
+        </div>
+
+        <footer class="toolbar toolbar-footer" style="height: 40px">
+            <audio src="" controls style="height: 40px; width: 100%"></audio>
+        </footer>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
